@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../pag_biomas/mp1.webp);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: black;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: rgba(220, 220, 220, 0.8);
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(220, 220, 220, 0.9);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 3.5em;
+    margin: 0;
+    color: #333;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+.biome-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.biome-image {
+    flex: 2;
+    min-width: 400px;
+    margin-right: 20px;
+}
+
+.biome-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.biome-text {
+    flex: 1;
+    min-width: 300px;
+}
+
+.biome-text h2 {
+    color: darkblue;
+}
+
+.biome-text p {
+    line-height: 1.6;
+}
+
+.resources-section {
+    background-color: rgba(220, 220, 220, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.resources-section h2 {
+    color: darkgreen;
+}
+
+.resources-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.resources-section li {
+    margin-bottom: 10px;
+}
+
+.video-section {
+    text-align: center;
+}
+
+video {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+@media (max-width: 768px) {
+    .biome-section {
+        flex-direction: column;
+    }
+    .biome-image {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}

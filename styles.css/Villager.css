@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+    background-image: url(../pag_villagers/bioma\ 3.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+.nav{
+    flex-direction: row; 
+    align-items: center; 
+    display: flex; 
+    background-color: #4ac317; 
+    padding: 10px 20px; 
+    gap: 25px;
+}
+.logo{
+    width: 231px; 
+    height: 60px;
+}
+.baixar{
+    text-decoration: none; 
+    color: black; 
+    font-size: 20px; 
+    margin-left: auto; 
+    background-color: white; 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    box-shadow: 1px 1px 6px #000;
+}
+.itens{
+    text-decoration: none; 
+    color: black; 
+    font-size: 20px; 
+    background-color: white; 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    box-shadow: 1px 1px 6px #000;
+}
+.villagers{
+    text-decoration: none; 
+    color: black; 
+    font-size: 20px; 
+    background-color: white; 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    box-shadow: 1px 1px 6px #000;
+}
+.biomas{
+    text-decoration: none; 
+    color: black; 
+    font-size: 20px; 
+    background-color: white; 
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    box-shadow: 1px 1px 6px #000;
+}
+.TITULO{
+    border: 2px solid; 
+    width: 20%; background-color: rgb(255, 250, 210); 
+    font-size: 30px;
+}
+.Tabela{
+    width: 35%; 
+    background-color: rgb(255, 250, 210);
+}
+.DESCRICAO{
+      border: 2px solid; 
+    width: 80%; background-color: rgb(255, 250, 210); 
+    font-size: 30px;
+}
+.Villagers{
+    border: 2px solid; 
+    text-align: center;
+    font-size: 20px;
+}
+.Biomas{
+    border: 2px solid;
+    text-align: center;
+    font-size: 20px;
+}
+.Planice{
+    border: 2px solid;
+    text-align: center;
+    font-size: 20px;
+}
+.Deserto{
+     border: 2px solid;
+    text-align: center;
+    font-size: 20px;
+}
+.Neve{
+     border: 2px solid;
+    text-align: center;
+    font-size: 20px;
+}
+.Pantano{
+     border: 2px solid;
+    text-align: center;
+    font-size: 20px;
+}
+.Savana{
+     border: 2px solid;
+    text-align: center;
+    font-size: 20px;
+}
+.Selva{
+     border: 2px solid;
+    text-align: center;
+    font-size: 20px;
+}
+.Taiga{
+     border: 2px solid;
+    text-align: center;
+    font-size: 20px;
+}
+.img{
+    width: 75px;
+}

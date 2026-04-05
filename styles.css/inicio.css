@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+#video-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    scale: 110%;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    z-index: -1;
+    pointer-events: none;
+}
+
+nav{
+    flex-direction:row;
+    justify-content: space-between; 
+    align-items: center; 
+    display: flex;
+    background-image: url(../pag_inicial/grama.webp);
+    background-repeat: repeat;
+    background-size: 200px;
+    padding: 10px 20px; 
+    gap: 25px;
+}
+
+
+#logo_nav{
+    width: 275px;
+    height: auto;
+}
+
+nav audio{
+    transform: scale(0.85);
+    width: 400px;
+}
+
+
+.btn_nav{
+    display: flex; 
+    gap: 20px;
+}
+
+.btn_nav a{
+    text-decoration: none;
+    color: black; 
+    font-size: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    box-shadow: 1px 1px 6px #000;
+    transition: 0.2s;
+}
+
+.btn_nav a:hover{
+    background-color: #bebebe;
+    transform: scale(1.1);
+}
+
+main{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    flex: 1;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 850px;
+}
+
+.fundoTexto{
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    backdrop-filter: blur(5px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+.texto{
+    color: rgb(255, 255, 255);
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    text-align: justify;
+    font-weight: lighter;
+}
+
+.div_pai{
+    display: flex;
+    justify-content: center;
+}
+
+.fundo_video{
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    background-image: url('../pag_inicial/blocodeterra.webp');
+    background-repeat: repeat;
+    background-size: 150px;
+    width: 810px; 
+    height: 470px;
+}
+
+.fundo_video video{
+    width: 780px; 
+    height: auto;
+}
+
+aside img{
+    width: auto; 
+    height: 850px; 
+    box-shadow: 0px 0px 10px black;
+}
+
+.tbl-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+
+
+.titulo_tabela{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px; 
+    color: rgb(255, 255, 255); 
+    font-family: Arial, sans-serif;
+    background-color: rgba(74, 195, 23, 0.2);
+    width: 300px;
+    height: 70px;
+    border-radius: 25px;
+    backdrop-filter: blur(5px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+
+.tbl{
+    display: flex; 
+    justify-content: center; 
+    width: 100%;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+}
+
+.tbl table{
+    width: 1200px; 
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-radius: 25px;
+    border-spacing: 0;
+    background-size: 50px; 
+    font-family: Arial, sans-serif;
+    background-color: rgba(74, 195, 23, 0.2);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    
+}
+
+.tbl th{
+    padding: 12px; 
+    text-align: left;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.td-itens{
+    color: rgb(255, 255, 255);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+
+.tbl td{
+    padding: 10px;
+}
+
+.jogoNovo1{
+    color: rgb(0, 0, 0);
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: antiquewhite; 
+}
+
+.jogoNovo2{
+    color: rgb(0, 0, 0);
+    background-color: antiquewhite; 
+}
+
+.jogoNovo3{
+    color: rgb(0, 0, 0);
+    border-bottom-left-radius: 0; 
+    border-bottom-right-radius: 20px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    background-color: antiquewhite; 
+}
+
+footer{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-image: url(../pag_inicial/obsian.webp);
+    background-repeat: repeat;
+    background-size: 150px;
+    margin-top: 20px; 
+    height: 40px; 
+}
+
+footer p{
+    margin: 0; 
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 550;
+}
