@@ -2,11 +2,51 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-image: url(../pag_biomas/mp1.webp);
+    background-image: url(/pag_biomas/mp1.webp);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
     color: black;
+}
+
+nav{
+    flex-direction:row;
+    justify-content: space-between; 
+    align-items: center; 
+    display: flex;
+    background-image: url(../pag_inicial/grama.webp);
+    background-repeat: repeat;
+    background-size: 200px;
+    padding: 10px 20px; 
+    gap: 25px;
+}
+
+
+#logo_nav{
+    width: 275px;
+    height: auto;
+}
+
+.btn_nav{
+    display: flex; 
+    gap: 20px;
+}
+
+.btn_nav a{
+    text-decoration: none;
+    color: black; 
+    font-size: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    box-shadow: 1px 1px 6px #000;
+    transition: 0.2s;
+}
+
+.btn_nav a:hover{
+    background-color: #bebebe;
+    transform: scale(1.1);
 }
 
 .container {

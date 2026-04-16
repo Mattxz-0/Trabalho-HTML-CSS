@@ -145,7 +145,6 @@ aside img{
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 }
 
-
 .tbl{
     display: flex; 
     justify-content: center; 
@@ -180,32 +179,36 @@ aside img{
     border-bottom: 2px solid rgba(255, 255, 255, 0.3);
 }
 
+.td-link{
+    border-bottom: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.td-itens2{
+    color: rgb(255, 255, 255);
+}
+
+.tbl-link{
+    text-decoration: none; 
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.tbl-link:hover{
+    color: rgb(72, 3, 73);
+}
+
+.tbl-link2{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    transition: 0.3s;
+}
+
+.tbl-link2:hover{
+    color: rgb(72, 3, 73);
+}
 
 .tbl td{
     padding: 10px;
-}
-
-.jogoNovo1{
-    color: rgb(0, 0, 0);
-    border-bottom-left-radius: 20px; 
-    border-bottom-right-radius: 0;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    background-color: antiquewhite; 
-}
-
-.jogoNovo2{
-    color: rgb(0, 0, 0);
-    background-color: antiquewhite; 
-}
-
-.jogoNovo3{
-    color: rgb(0, 0, 0);
-    border-bottom-left-radius: 0; 
-    border-bottom-right-radius: 20px;
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-    background-color: antiquewhite; 
 }
 
 footer{

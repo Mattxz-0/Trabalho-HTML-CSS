@@ -1,0 +1,148 @@
+td{ 
+    border: 4px solid #0f3b0f;
+    opacity: 0.8;
+}
+        
+body{
+    margin: 0px;
+    background-image: url(../pag_minerios/Fundo2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    flex-direction:row;
+    justify-content: space-between; 
+    align-items: center; 
+    display: flex;
+    background-image: url(../pag_inicial/grama.webp);
+    background-repeat: repeat;
+    background-size: 200px;
+    padding: 10px 20px; 
+    gap: 25px;
+}
+
+#logo_nav{
+    width: 275px;
+    height: auto;
+}
+
+.btn_nav{
+    display: flex; 
+    gap: 20px;
+}
+
+.btn_nav a{
+    text-decoration: none;
+    color: black; 
+    font-size: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    box-shadow: 1px 1px 6px #000;
+    transition: 0.2s;
+}
+
+.btn_nav a:hover{
+    background-color: #bebebe;
+    transform: scale(1.1);
+}
+
+.fora{
+    background-color: rgba(201, 253, 153, 0.7);
+    border: 4px solid #4a752c;
+    border-radius: 10px;
+    max-width: 900px;
+    height: 300px;
+    margin-top: 60px;
+}
+
+.texto{
+    font-size: 20px;
+    padding: 30px;
+    line-height: 1.5;
+    margin: 20px auto;
+    text-align: left;
+    color: #254d14;
+}
+
+main{
+    display: flex;
+    gap: 50px;
+}
+
+.container-flex{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 15px;
+    border-radius: 10px;
+    justify-content: left;
+    background-color: rgba(201, 253, 153, 0.7);
+    height: 300px;
+    margin-left: 70px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 8000px;
+}
+.imagem-lado{
+    width: 270px;
+    height: auto;
+    margin-top: 60px;
+}
+.exista{
+    background-color: #425733;
+    font-size: 50px;
+    padding: 30px;
+    border: 4px solid #76a760;
+    border-radius: 10px;
+    line-height: 1.6;
+    max-width: 900px;
+    margin: 20px auto;
+    text-align: left;
+    color: white;
+    text-shadow: 3px 3px 0px #2b4813;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    opacity: 0.8;
+    margin-left: 70px;
+    margin-top: 60px;
+    width: auto;
+    height: auto;
+}
+h2{
+    font-size: 40px;
+    color: #1e1e1e;
+    margin-bottom: 10px;
+    background-color: #37710d;
+}
+.outro_site{
+    color: rgb(250, 250, 250);
+    background-color: #4a752c;
+    font-size: 20px;
+    padding: 20px;
+    border: 2px solid #247800;
+    border-radius: 10px;
+    max-width: 600px;
+    margin: 10px auto;
+    cursor: pointer;
+    text-decoration: none;
+    transition: all 0.2s ease;
+}
+.outro_site:hover{
+    background-color: #89d867;
+    transform: scale(1.1);
+}
+.video-lado{
+    width: auto;
+    height: auto;
+    margin-right: 60px;
+    margin-top: 60px;
+}
+.butao{
+    margin-top: 1000px;
+    background-color: rgb(250, 250, 250);
+    padding: 20px;
+    border-radius: 30px;
+}

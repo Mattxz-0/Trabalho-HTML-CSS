@@ -1,0 +1,120 @@
+body {
+    font-family: Arial;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+nav{
+    flex-direction:row;
+    justify-content: space-between; 
+    align-items: center; 
+    display: flex;
+    background-image: url(../pag_inicial/grama.webp);
+    background-repeat: repeat;
+    background-size: 200px;
+    padding: 10px 20px; 
+    gap: 25px;
+}
+
+#logo_nav{
+    width: 275px;
+    height: auto;
+}
+
+.btn_nav{
+    display: flex; 
+    gap: 20px;
+}
+
+.btn_nav a{
+    text-decoration: none;
+    color: black; 
+    font-size: 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    padding: 10px 20px; 
+    border-radius: 20px; 
+    box-shadow: 1px 1px 6px #000;
+    transition: 0.2s;
+}
+
+.btn_nav a:hover{
+    background-color: #bebebe;
+    transform: scale(1.1);
+}
+
+            /* CONTEÚDO */
+h1 {
+    color: #2ecc71;
+}
+
+img {
+    width: 250px;
+    border-radius: 10px;
+}
+
+                /* BOTÃO */
+.botao {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.creeper{
+    display: flex;
+    justify-content: center;
+}
+
+.img-center{
+    display: flex;
+    justify-content: center;
+}
+
+.imagem{
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+}
+        
+.titulo {
+    color: green;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+
+audio{
+    background-color: #2ecc71;
+    padding: 2px;
+    border-radius: 60px;
+}
+
+.mods{
+    display: flex;
+    justify-content: center;
+}
+
+.tabela{
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    height: auto;
+    width: 550px;
+    border-collapse: collapse;
+    background-color: #2ecc71;
+    margin-bottom: 30px;
+}     
